@@ -135,3 +135,60 @@ func TestCount(t *testing.T) {
 		}
 	}
 }
+
+type block int
+type maze [][]block
+type coord struct {
+	x, y int
+}
+type solution []coord
+
+func solveMazeR(m maze, c coord) (sol solution, solved bool) {
+	m[c.x][c.y] = 1
+	sol = append(sol, c)
+
+	if c.x == len(m)-2 &&
+		c.y == len(m[0])-2 {
+		solved = true
+		return
+	}
+
+	neighbors := []coord{
+		{c.x - 1, c.y},
+		{c.x, c.y - 1},
+		{c.x, c.y + 1},
+		{c.x + 1, c.y},
+	}
+
+	for _, n := range neighbors {
+		if m[n.x][n.y] == 0 {
+			var solR solution
+			if solR, solved = solveMazeR(m, n); solved {
+				sol = append(sol, solR...)
+				return
+			}
+		}
+	}
+
+	return
+}
+
+func solveMaze(m maze) (s solution) {
+	s, _ = solveMazeR(m, coord{1, 1})
+	return s
+}
+
+func TestSolveMaze(t *testing.T) {
+	m := maze{
+		{1, 1, 1, 1, 1, 1, 1},
+		{1, 0, 0, 0, 0, 0, 1},
+		{1, 0, 1, 1, 1, 0, 1},
+		{1, 0, 0, 0, 0, 1, 1},
+		{1, 0, 1, 1, 0, 0, 1},
+		{1, 0, 1, 1, 1, 0, 1},
+		{1, 1, 1, 1, 1, 1, 1},
+	}
+
+	s := solveMaze(m)
+	t.Log(s)
+}
