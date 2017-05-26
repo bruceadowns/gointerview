@@ -31,10 +31,10 @@ func main() {
 			is = append(is, i)
 		}
 
-		// hold map of int to its occurance
+		// hold map of int to its occurence
 		m := make(map[int]int)
 		for _, v := range is {
-			// insert or update occurance
+			// insert or update occurence
 			if i, ok := m[v]; ok {
 				m[v] = i + 1
 			} else {
@@ -44,7 +44,7 @@ func main() {
 			// check for seven partner
 			if p, ok := m[7-v]; ok {
 				// found partner
-				// print line per partner occurance
+				// print line per partner occurence
 				for i := 0; i < p; i++ {
 					fmt.Printf("%d + %d = 7\n", v, 7-v)
 				}
