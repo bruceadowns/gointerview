@@ -5,6 +5,13 @@ import (
 	"testing"
 )
 
+func TestAssocAssign(t *testing.T) {
+	a, b := 5, 3
+	t.Logf("a: %d b: %d", a, b)
+	a, b = a+b, a
+	t.Logf("a: %d b: %d", a, b)
+}
+
 func printDupsCount(t *testing.T, a []int) {
 	count := make([]bool, len(a))
 
