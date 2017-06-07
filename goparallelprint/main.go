@@ -18,14 +18,12 @@ func print(id int, l []int, wg *sync.WaitGroup) {
 	for _, v := range l {
 		fmt.Printf("%d\t%d\n", id, v)
 	}
-
-	//wg.Done()
 }
 
 func main() {
 	fmt.Println("Start")
 
-	// make list
+	// fabricate list
 	l := make(listmap)
 	for i := 0; i < maxlen; i++ {
 		childlist := make(list, maxlen)
