@@ -1,0 +1,43 @@
+package main
+
+import (
+	"fmt"
+	"log"
+	"net/http"
+)
+
+type mystring string
+
+func (s mystring) ServeHTTP(w http.ResponseWriter, req *http.Request) {
+	log.Print("mystring")
+	fmt.Fprintf(w, fmt.Sprintf("mystring"))
+}
+
+type fooHandler struct{}
+
+func (f *fooHandler) ServeHTTP(w http.ResponseWriter, req *http.Request) {
+	log.Print("fooHandler")
+	fmt.Fprintf(w, fmt.Sprintf("fooHandler"))
+}
+
+func fooHandlerFunc(w http.ResponseWriter, r *http.Request) {
+	log.Print("fooHandlerFunc")
+	fmt.Fprintf(w, fmt.Sprintf("fooHandlerFunc"))
+}
+
+func main() {
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		log.Print("Hello World")
+		fmt.Fprintf(w, fmt.Sprintf("Hello World"))
+	})
+
+	http.HandleFunc("/foo", fooHandlerFunc)
+
+	h := &fooHandler{}
+	http.Handle("/bar", h)
+
+	var sh mystring
+	http.Handle("/str", sh)
+
+	http.ListenAndServe(":8080", nil)
+}
