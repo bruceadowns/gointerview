@@ -11,8 +11,10 @@ import (
 type fileCount map[string]int
 type fileCounts map[string]fileCount
 
+//var counts = make(fileCounts)
+
 func count(r io.Reader) (fc fileCount) {
-	fc = make(map[string]int)
+	fc = make(fileCount)
 	input := bufio.NewScanner(r)
 	for input.Scan() {
 		if len(input.Text()) > 0 {
