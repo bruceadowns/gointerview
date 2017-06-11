@@ -1,0 +1,5 @@
+#include "sum.h"
+
+int main() {
+    sum(3, 5);
+}
