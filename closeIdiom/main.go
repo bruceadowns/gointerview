@@ -25,10 +25,10 @@ func idiomaticWrite(fileName, content string) (int, error) {
 
 	n, err := f.WriteString(content)
 	if err != nil {
-		return 0, nil
+		return 0, err
 	}
 
-	return n, err
+	return n, nil
 }
 
 func doubleCloseWrite1(fileName, content string) (n int, err error) {
@@ -70,7 +70,7 @@ func doubleCloseWrite2(fileName, content string) (int, error) {
 	n, err := f.WriteString(content)
 	if err != nil {
 		f.Close()
-		return 0, nil
+		return 0, err
 	}
 
 	return n, f.Close()
@@ -95,6 +95,7 @@ func deferCloseFuncWrite(fileName, content string) (n int, err error) {
 	}()
 
 	n, err = f.WriteString(content)
+
 	return
 }
 
@@ -111,7 +112,7 @@ func closeSyncWrite(fileName, content string) (int, error) {
 
 	n, err := f.WriteString(content)
 	if err != nil {
-		return 0, nil
+		return 0, err
 	}
 
 	return n, f.Sync()
