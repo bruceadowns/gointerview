@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"log"
 )
 
 type myjson struct {
@@ -15,7 +16,31 @@ func (m *myjson) String() string {
 	return fmt.Sprintf("%d: %s", m.ID, m.Name)
 }
 
-func main() {
+/*
+
+b = ioutil.ReadAll(os.Stdin)
+json.Unmarshal(b, &e)
+
+vs
+
+// streaming decoder
+json.NewDecoder(os.Stdin).Decode(&e)
+
+*/
+
+func streamDecoder() {
+	//buf := bytes.Buffer{}
+	//buf.WriteString("{\"id\":1,\"name\":\"foo\"}")
+	buf := bytes.NewBufferString("{\"id\":2,\"name\":\"foobar\"}")
+
+	j := &myjson{}
+	if err := json.NewDecoder(buf).Decode(&j); err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("%s\n", j)
+}
+
+func strMarshaller() {
 	j := &myjson{1, "foo"}
 	fmt.Printf("%s\n", j)
 
@@ -35,4 +60,9 @@ func main() {
 	} else {
 		fmt.Printf("%s\n", err)
 	}
+}
+
+func main() {
+	streamDecoder()
+	strMarshaller()
 }

@@ -30,9 +30,18 @@ func main() {
 			}
 		}
 
-		s := []int{}
+		//s := []int{}
+		var i int
+		//s := make([]int)
+		//s := make([]int, len(c))
+		l := 0
+		ccap := len(c)
+		s := make([]int, l, ccap)
+		//s := make([]int, 0, len(c))
 		for k := range c {
 			s = append(s, k)
+			//s[i] = k
+			i++
 			//fmt.Printf("%s %d\n", string(k), v)
 		}
 
