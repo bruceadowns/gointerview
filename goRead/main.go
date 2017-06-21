@@ -8,24 +8,7 @@ import (
 	"os"
 )
 
-func foo() {
-	f, err := os.Open("main.go")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	buf, err := ioutil.ReadAll(f)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Printf("%s", buf)
-}
-
-func main() {
-	foo()
-	os.Exit(1)
-
+func read() {
 	f, err := os.Open("main.go")
 	if err != nil {
 		log.Fatal(err)
@@ -45,4 +28,23 @@ func main() {
 	if err != nil && err != io.EOF {
 		log.Fatal(err)
 	}
+}
+
+func readall() {
+	f, err := os.Open("main.go")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	buf, err := ioutil.ReadAll(f)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Printf("%s", buf)
+}
+
+func main() {
+	read()
+	readall()
 }
