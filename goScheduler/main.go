@@ -1,5 +1,20 @@
 package main
 
+/*
+ 0   4   8   12  16  20  24  28  32  36  40  44  48  52  56  60  64
+-+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+--- > t
+4  [============)
+1   [================)
+6       [==================)
+2          [==================)
+3                    [==================)
+7                                [==================)
+5                                  [=============)
+8                                          [==================)
+-+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+--- > t
+ 0   4   8   12  16  20  24  28  32  36  40  44  48  52  56  60  64
+*/
+
 import "fmt"
 
 type job struct {
@@ -20,21 +35,31 @@ func (j job) overlapsWith(o job) bool {
 	return false
 }
 
+type server struct {
+	id           int
+	assignedJobs []job
+}
+
+func (s server) String() string {
+	return fmt.Sprintf("%d %s", s.id, s.assignedJobs)
+}
+
+func (s *server) addJob(j job) {
+	s.assignedJobs = append(s.assignedJobs, j)
+}
+
+func (s server) isAvailable(j job) bool {
+	for _, v := range s.assignedJobs {
+		if v.overlapsWith(j) {
+			return false
+		}
+	}
+
+	return true
+}
+
 func main() {
-	//   jobs := make([]job, 0, 3)
-	//   jobs = append(jobs, job{id: 1, start: 3, end: 20})
-	//   jobs = append(jobs, job{id: 2, start: 10, end: 29})
-	//   jobs = append(jobs, job{id: 3, start: 20, end: 39})
-
-	//   //fmt.Println(jobs)
-	//   for kj, j := range jobs {
-	//     for ko, o := range jobs {
-	//       if kj != ko {
-	//         fmt.Printf("job %d overlaps with job %d: %t\n", j.id, o.id, j.overlapsWith(o))
-	//       }
-	//     }
-	//   }
-
+	// assume jobs are sorted via ascending start time
 	jobs := []job{
 		job{4, 2, 15},
 		job{1, 3, 20},
@@ -47,35 +72,18 @@ func main() {
 	}
 
 	servers := getServers(jobs)
-	//fmt.Println("%v", servers)
 	fmt.Printf("# of servers %d\n", len(servers))
-}
 
-type Server struct {
-	id           int
-	assignedJobs []job
-}
-
-func (s *Server) addJob(j job) {
-	s.assignedJobs = append(s.assignedJobs, j)
-}
-
-func (s Server) isAvailable(j job) bool {
-	for _, v := range s.assignedJobs {
-		if v.overlapsWith(j) {
-			return false
-		}
+	for _, s := range servers {
+		fmt.Println(s)
 	}
-
-	return true
 }
 
-func getServers(jobs []job) []*Server {
-	servers := []*Server{}
-
-	// O(js) or O(n^2)
+func getServers(jobs []job) []*server {
+	servers := []*server{}
 
 LOOP:
+	// solution is O(jobs*servers) or O(n^2)
 	for _, j := range jobs {
 		for _, s := range servers {
 			if s.isAvailable(j) {
@@ -84,27 +92,9 @@ LOOP:
 			}
 		}
 
-		servers = append(servers, &Server{id: len(servers), assignedJobs: []job{j}})
+		servers = append(servers,
+			&server{id: len(servers) + 1, assignedJobs: []job{j}})
 	}
 
 	return servers
 }
-
-/*
- 0   4   8   12  16  20  24  28  32  36  40  44  48  52  56  60  64
--+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+--- > t
-4  [============)
-1   [================)
-6       [==================)
-2          [==================)
-3                    [==================)
-7                                [==================)
-5                                  [=============)
-8                                          [==================)
--+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+--- > t
- 0   4   8   12  16  20  24  28  32  36  40  44  48  52  56  60  64
-
-a.overlapsWith(b) -> true
-a.overlapsWith(c) -> false
-
-*/
