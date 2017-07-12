@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"flag"
-	"fmt"
+	"log"
 	"os"
 	"strconv"
 	"strings"
@@ -24,14 +24,14 @@ func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
 		line := scanner.Text()
-		fmt.Printf("line: %s\n", line)
+		log.Printf("line: %s\n", line)
 
 		// tokenize input into slice of ints
 		is := make([]int, 0)
 		for _, v := range strings.Fields(line) {
 			i, err := strconv.Atoi(v)
 			if err != nil {
-				panic(err)
+				log.Panic(err)
 			}
 
 			is = append(is, i)
@@ -53,12 +53,12 @@ func main() {
 				// found valid partner
 				if once {
 					// print line of partner occurrence
-					fmt.Printf("%d + %d = %d\n", v, partner, 7)
+					log.Printf("%d + %d = %d\n", v, partner, 7)
 					m[partner] = p - 1
 				} else {
 					// print line per partner occurrence
 					for i := 0; i < p; i++ {
-						fmt.Printf("%d + %d = %d\n", v, partner, 7)
+						log.Printf("%d + %d = %d\n", v, partner, 7)
 					}
 				}
 			}
