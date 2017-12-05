@@ -9,9 +9,7 @@ import (
 
 func lineCount(r io.Reader) (res int) {
 	for input := bufio.NewScanner(r); input.Scan(); {
-		if len(input.Text()) > 0 {
-			res++
-		}
+		res++
 	}
 
 	return
@@ -22,11 +20,14 @@ func main() {
 		fmt.Printf("stdin: %d\n", lineCount(os.Stdin))
 	} else {
 		for _, v := range os.Args[1:] {
-			if f, err := os.Open(v); err == nil {
-				fmt.Printf("%s: %d\n", v, lineCount(f))
-			} else {
+			f, err := os.Open(v)
+			if err != nil {
 				fmt.Fprintln(os.Stderr, err)
+				continue
 			}
+			defer f.Close()
+
+			fmt.Printf("%s: %d\n", v, lineCount(f))
 		}
 	}
 }
