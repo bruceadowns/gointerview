@@ -1,0 +1,781 @@
+Feb 16 18:36:02 localhost rsyslogd: [origin software="rsyslogd" swVersion="8.24.0" x-pid="655" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Feb 16 18:37:54 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 18:37:54 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 18:37:54 localhost NetworkManager[668]: <info>  [1518835074.7337] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 18:37:54 localhost NetworkManager[668]: <info>  [1518835074.7337] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 18:37:54 localhost NetworkManager[668]: <info>  [1518835074.7337] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 18:37:54 localhost NetworkManager[668]: <info>  [1518835074.7337] dhcp4 (eno16777736):   lease time 1800
+Feb 16 18:37:54 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 18:37:54 localhost NetworkManager[668]: <info>  [1518835074.7338] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 18:37:54 localhost NetworkManager[668]: <info>  [1518835074.7338] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 18:37:54 localhost NetworkManager[668]: <info>  [1518835074.7338] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 18:37:54 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 18:37:54 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 701 seconds.
+Feb 16 18:37:54 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 18:37:54 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 18:37:54 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 18:37:54 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 18:37:54 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 18:37:54 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 18:49:35 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 18:49:35 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 18:49:35 localhost NetworkManager[668]: <info>  [1518835775.3281] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 18:49:35 localhost NetworkManager[668]: <info>  [1518835775.3282] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 18:49:35 localhost NetworkManager[668]: <info>  [1518835775.3282] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 18:49:35 localhost NetworkManager[668]: <info>  [1518835775.3282] dhcp4 (eno16777736):   lease time 1800
+Feb 16 18:49:35 localhost NetworkManager[668]: <info>  [1518835775.3282] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 18:49:35 localhost NetworkManager[668]: <info>  [1518835775.3282] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 18:49:35 localhost NetworkManager[668]: <info>  [1518835775.3282] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 18:49:35 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 18:49:35 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 18:49:35 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 872 seconds.
+Feb 16 18:49:35 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 18:49:35 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 18:49:35 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 18:49:35 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 18:49:35 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 18:49:35 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 19:01:01 localhost systemd: Started Session 2 of user root.
+Feb 16 19:01:01 localhost systemd: Starting Session 2 of user root.
+Feb 16 19:04:07 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 19:04:07 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 19:04:07 localhost NetworkManager[668]: <info>  [1518836647.7216] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 19:04:07 localhost NetworkManager[668]: <info>  [1518836647.7216] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 19:04:07 localhost NetworkManager[668]: <info>  [1518836647.7216] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 19:04:07 localhost NetworkManager[668]: <info>  [1518836647.7216] dhcp4 (eno16777736):   lease time 1800
+Feb 16 19:04:07 localhost NetworkManager[668]: <info>  [1518836647.7217] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 19:04:07 localhost NetworkManager[668]: <info>  [1518836647.7217] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 19:04:07 localhost NetworkManager[668]: <info>  [1518836647.7217] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 19:04:07 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:04:07 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:04:07 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 799 seconds.
+Feb 16 19:04:07 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 19:04:07 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:04:07 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:04:07 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 19:04:07 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 19:04:07 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 19:16:02 localhost systemd: Removed slice User Slice of root.
+Feb 16 19:16:02 localhost systemd: Stopping User Slice of root.
+Feb 16 19:17:26 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 19:17:26 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 19:17:26 localhost NetworkManager[668]: <info>  [1518837446.4537] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 19:17:26 localhost NetworkManager[668]: <info>  [1518837446.4539] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 19:17:26 localhost NetworkManager[668]: <info>  [1518837446.4539] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 19:17:26 localhost NetworkManager[668]: <info>  [1518837446.4539] dhcp4 (eno16777736):   lease time 1800
+Feb 16 19:17:26 localhost NetworkManager[668]: <info>  [1518837446.4539] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 19:17:26 localhost NetworkManager[668]: <info>  [1518837446.4539] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 19:17:26 localhost NetworkManager[668]: <info>  [1518837446.4539] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 19:17:26 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:17:26 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:17:26 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 877 seconds.
+Feb 16 19:17:26 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 19:17:26 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:17:26 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:17:26 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 19:17:26 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 19:17:26 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 19:32:03 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 19:32:03 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 19:32:03 localhost NetworkManager[668]: <info>  [1518838323.5858] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 19:32:03 localhost NetworkManager[668]: <info>  [1518838323.5858] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 19:32:03 localhost NetworkManager[668]: <info>  [1518838323.5858] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 19:32:03 localhost NetworkManager[668]: <info>  [1518838323.5858] dhcp4 (eno16777736):   lease time 1800
+Feb 16 19:32:03 localhost NetworkManager[668]: <info>  [1518838323.5858] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 19:32:03 localhost NetworkManager[668]: <info>  [1518838323.5858] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 19:32:03 localhost NetworkManager[668]: <info>  [1518838323.5859] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 19:32:03 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:32:03 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 19:32:03 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:32:03 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 770 seconds.
+Feb 16 19:32:03 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:32:03 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:32:03 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 19:32:03 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 19:32:03 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 19:44:53 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 19:44:53 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 19:44:53 localhost NetworkManager[668]: <info>  [1518839093.4453] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 19:44:53 localhost NetworkManager[668]: <info>  [1518839093.4453] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 19:44:53 localhost NetworkManager[668]: <info>  [1518839093.4453] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 19:44:53 localhost NetworkManager[668]: <info>  [1518839093.4454] dhcp4 (eno16777736):   lease time 1800
+Feb 16 19:44:53 localhost NetworkManager[668]: <info>  [1518839093.4454] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 19:44:53 localhost NetworkManager[668]: <info>  [1518839093.4454] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 19:44:53 localhost NetworkManager[668]: <info>  [1518839093.4454] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 19:44:53 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:44:53 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:44:53 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 19:44:53 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 705 seconds.
+Feb 16 19:44:53 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:44:53 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:44:53 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 19:44:53 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 19:44:53 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 19:56:38 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 19:56:38 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 19:56:38 localhost NetworkManager[668]: <info>  [1518839798.2000] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 19:56:38 localhost NetworkManager[668]: <info>  [1518839798.2001] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 19:56:38 localhost NetworkManager[668]: <info>  [1518839798.2001] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 19:56:38 localhost NetworkManager[668]: <info>  [1518839798.2001] dhcp4 (eno16777736):   lease time 1800
+Feb 16 19:56:38 localhost NetworkManager[668]: <info>  [1518839798.2001] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 19:56:38 localhost NetworkManager[668]: <info>  [1518839798.2001] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 19:56:38 localhost NetworkManager[668]: <info>  [1518839798.2001] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 19:56:38 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:56:38 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 19:56:38 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 834 seconds.
+Feb 16 19:56:38 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 19:56:38 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:56:38 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 19:56:38 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 19:56:38 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 19:56:38 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 20:01:01 localhost systemd: Created slice User Slice of root.
+Feb 16 20:01:01 localhost systemd: Starting User Slice of root.
+Feb 16 20:01:01 localhost systemd: Started Session 3 of user root.
+Feb 16 20:01:01 localhost systemd: Starting Session 3 of user root.
+Feb 16 20:01:01 localhost systemd: Removed slice User Slice of root.
+Feb 16 20:01:01 localhost systemd: Stopping User Slice of root.
+Feb 16 20:10:32 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 20:10:32 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 20:10:32 localhost NetworkManager[668]: <info>  [1518840632.0778] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 20:10:32 localhost NetworkManager[668]: <info>  [1518840632.0778] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 20:10:32 localhost NetworkManager[668]: <info>  [1518840632.0778] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 20:10:32 localhost NetworkManager[668]: <info>  [1518840632.0778] dhcp4 (eno16777736):   lease time 1800
+Feb 16 20:10:32 localhost NetworkManager[668]: <info>  [1518840632.0778] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 20:10:32 localhost NetworkManager[668]: <info>  [1518840632.0778] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 20:10:32 localhost NetworkManager[668]: <info>  [1518840632.0778] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 20:10:32 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 20:10:32 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 20:10:32 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 714 seconds.
+Feb 16 20:10:32 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 20:10:32 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 20:10:32 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 20:10:32 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 20:10:32 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 20:10:32 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 20:22:26 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 20:22:26 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 20:22:26 localhost NetworkManager[668]: <info>  [1518841346.7225] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 20:22:26 localhost NetworkManager[668]: <info>  [1518841346.7225] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 20:22:26 localhost NetworkManager[668]: <info>  [1518841346.7225] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 20:22:26 localhost NetworkManager[668]: <info>  [1518841346.7225] dhcp4 (eno16777736):   lease time 1800
+Feb 16 20:22:26 localhost NetworkManager[668]: <info>  [1518841346.7225] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 20:22:26 localhost NetworkManager[668]: <info>  [1518841346.7225] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 20:22:26 localhost NetworkManager[668]: <info>  [1518841346.7225] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 20:22:26 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 20:22:26 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 20:22:26 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 806 seconds.
+Feb 16 20:22:26 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 20:22:26 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 20:22:26 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 20:22:26 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 20:22:26 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 20:22:26 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 20:35:52 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 20:35:52 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 20:35:52 localhost NetworkManager[668]: <info>  [1518842152.5384] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 20:35:52 localhost NetworkManager[668]: <info>  [1518842152.5385] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 20:35:52 localhost NetworkManager[668]: <info>  [1518842152.5385] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 20:35:52 localhost NetworkManager[668]: <info>  [1518842152.5385] dhcp4 (eno16777736):   lease time 1800
+Feb 16 20:35:52 localhost NetworkManager[668]: <info>  [1518842152.5385] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 20:35:52 localhost NetworkManager[668]: <info>  [1518842152.5385] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 20:35:52 localhost NetworkManager[668]: <info>  [1518842152.5385] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 20:35:52 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 20:35:52 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 20:35:52 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 20:35:52 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 769 seconds.
+Feb 16 20:35:52 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 20:35:52 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 20:35:52 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 20:35:52 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 20:35:52 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 20:48:42 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 20:48:42 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 20:48:42 localhost NetworkManager[668]: <info>  [1518842922.0512] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 20:48:42 localhost NetworkManager[668]: <info>  [1518842922.0513] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 20:48:42 localhost NetworkManager[668]: <info>  [1518842922.0513] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 20:48:42 localhost NetworkManager[668]: <info>  [1518842922.0513] dhcp4 (eno16777736):   lease time 1800
+Feb 16 20:48:42 localhost NetworkManager[668]: <info>  [1518842922.0513] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 20:48:42 localhost NetworkManager[668]: <info>  [1518842922.0513] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 20:48:42 localhost NetworkManager[668]: <info>  [1518842922.0513] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 20:48:42 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 20:48:42 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 20:48:42 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 730 seconds.
+Feb 16 20:48:42 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 20:48:42 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 20:48:42 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 20:48:42 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 20:48:42 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 20:48:42 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 21:00:52 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 21:00:52 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 21:00:52 localhost NetworkManager[668]: <info>  [1518843652.6903] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 21:00:52 localhost NetworkManager[668]: <info>  [1518843652.6903] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 21:00:52 localhost NetworkManager[668]: <info>  [1518843652.6903] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 21:00:52 localhost NetworkManager[668]: <info>  [1518843652.6903] dhcp4 (eno16777736):   lease time 1800
+Feb 16 21:00:52 localhost NetworkManager[668]: <info>  [1518843652.6903] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 21:00:52 localhost NetworkManager[668]: <info>  [1518843652.6903] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 21:00:52 localhost NetworkManager[668]: <info>  [1518843652.6903] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 21:00:52 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:00:52 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:00:52 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 708 seconds.
+Feb 16 21:00:52 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 21:00:52 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:00:52 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:00:52 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 21:00:52 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 21:00:52 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 21:01:01 localhost systemd: Created slice User Slice of root.
+Feb 16 21:01:01 localhost systemd: Starting User Slice of root.
+Feb 16 21:01:01 localhost systemd: Started Session 4 of user root.
+Feb 16 21:01:01 localhost systemd: Starting Session 4 of user root.
+Feb 16 21:01:01 localhost systemd: Removed slice User Slice of root.
+Feb 16 21:01:01 localhost systemd: Stopping User Slice of root.
+Feb 16 21:12:40 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 21:12:40 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 21:12:40 localhost NetworkManager[668]: <info>  [1518844360.8304] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 21:12:40 localhost NetworkManager[668]: <info>  [1518844360.8304] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 21:12:40 localhost NetworkManager[668]: <info>  [1518844360.8304] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 21:12:40 localhost NetworkManager[668]: <info>  [1518844360.8304] dhcp4 (eno16777736):   lease time 1800
+Feb 16 21:12:40 localhost NetworkManager[668]: <info>  [1518844360.8304] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 21:12:40 localhost NetworkManager[668]: <info>  [1518844360.8304] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 21:12:40 localhost NetworkManager[668]: <info>  [1518844360.8304] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 21:12:40 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:12:40 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:12:40 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 802 seconds.
+Feb 16 21:12:40 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 21:12:40 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:12:40 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:12:40 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 21:12:40 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 21:12:40 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 21:26:03 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 21:26:03 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 21:26:03 localhost NetworkManager[668]: <info>  [1518845163.0344] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 21:26:03 localhost NetworkManager[668]: <info>  [1518845163.0345] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 21:26:03 localhost NetworkManager[668]: <info>  [1518845163.0345] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 21:26:03 localhost NetworkManager[668]: <info>  [1518845163.0345] dhcp4 (eno16777736):   lease time 1800
+Feb 16 21:26:03 localhost NetworkManager[668]: <info>  [1518845163.0345] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 21:26:03 localhost NetworkManager[668]: <info>  [1518845163.0345] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 21:26:03 localhost NetworkManager[668]: <info>  [1518845163.0345] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 21:26:03 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:26:03 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:26:03 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 791 seconds.
+Feb 16 21:26:03 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 21:26:03 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:26:03 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:26:03 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 21:26:03 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 21:26:03 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 21:39:14 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 21:39:14 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 21:39:14 localhost NetworkManager[668]: <info>  [1518845954.2648] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 21:39:14 localhost NetworkManager[668]: <info>  [1518845954.2648] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 21:39:14 localhost NetworkManager[668]: <info>  [1518845954.2648] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 21:39:14 localhost NetworkManager[668]: <info>  [1518845954.2648] dhcp4 (eno16777736):   lease time 1800
+Feb 16 21:39:14 localhost NetworkManager[668]: <info>  [1518845954.2648] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 21:39:14 localhost NetworkManager[668]: <info>  [1518845954.2648] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 21:39:14 localhost NetworkManager[668]: <info>  [1518845954.2648] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 21:39:14 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:39:14 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:39:14 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 680 seconds.
+Feb 16 21:39:14 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 21:39:14 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:39:14 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:39:14 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 21:39:14 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 21:39:14 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 21:50:34 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 21:50:34 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 21:50:34 localhost NetworkManager[668]: <info>  [1518846634.2402] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 21:50:34 localhost NetworkManager[668]: <info>  [1518846634.2402] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 21:50:34 localhost NetworkManager[668]: <info>  [1518846634.2403] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 21:50:34 localhost NetworkManager[668]: <info>  [1518846634.2403] dhcp4 (eno16777736):   lease time 1800
+Feb 16 21:50:34 localhost NetworkManager[668]: <info>  [1518846634.2403] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 21:50:34 localhost NetworkManager[668]: <info>  [1518846634.2403] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 21:50:34 localhost NetworkManager[668]: <info>  [1518846634.2403] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 21:50:34 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:50:34 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 21:50:34 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 21:50:34 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 792 seconds.
+Feb 16 21:50:34 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:50:34 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 21:50:34 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 21:50:34 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 21:50:34 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 22:01:01 localhost systemd: Created slice User Slice of root.
+Feb 16 22:01:01 localhost systemd: Starting User Slice of root.
+Feb 16 22:01:01 localhost systemd: Started Session 5 of user root.
+Feb 16 22:01:01 localhost systemd: Starting Session 5 of user root.
+Feb 16 22:01:01 localhost systemd: Removed slice User Slice of root.
+Feb 16 22:01:01 localhost systemd: Stopping User Slice of root.
+Feb 16 22:03:46 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 22:03:46 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 22:03:46 localhost NetworkManager[668]: <info>  [1518847426.1311] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 22:03:46 localhost NetworkManager[668]: <info>  [1518847426.1312] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 22:03:46 localhost NetworkManager[668]: <info>  [1518847426.1312] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 22:03:46 localhost NetworkManager[668]: <info>  [1518847426.1312] dhcp4 (eno16777736):   lease time 1800
+Feb 16 22:03:46 localhost NetworkManager[668]: <info>  [1518847426.1312] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 22:03:46 localhost NetworkManager[668]: <info>  [1518847426.1312] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 22:03:46 localhost NetworkManager[668]: <info>  [1518847426.1312] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 22:03:46 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:03:46 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 22:03:46 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:03:46 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 703 seconds.
+Feb 16 22:03:46 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:03:46 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:03:46 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 22:03:46 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 22:03:46 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 22:15:29 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 22:15:29 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 22:15:29 localhost NetworkManager[668]: <info>  [1518848129.8660] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 22:15:29 localhost NetworkManager[668]: <info>  [1518848129.8662] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 22:15:29 localhost NetworkManager[668]: <info>  [1518848129.8662] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 22:15:29 localhost NetworkManager[668]: <info>  [1518848129.8662] dhcp4 (eno16777736):   lease time 1800
+Feb 16 22:15:29 localhost NetworkManager[668]: <info>  [1518848129.8662] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 22:15:29 localhost NetworkManager[668]: <info>  [1518848129.8662] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 22:15:29 localhost NetworkManager[668]: <info>  [1518848129.8662] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 22:15:29 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:15:29 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:15:29 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 722 seconds.
+Feb 16 22:15:29 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 22:15:29 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:15:29 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:15:29 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 22:15:29 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 22:15:29 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 22:27:31 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 22:27:31 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 22:27:31 localhost NetworkManager[668]: <info>  [1518848851.7216] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 22:27:31 localhost NetworkManager[668]: <info>  [1518848851.7216] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 22:27:31 localhost NetworkManager[668]: <info>  [1518848851.7216] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 22:27:31 localhost NetworkManager[668]: <info>  [1518848851.7216] dhcp4 (eno16777736):   lease time 1800
+Feb 16 22:27:31 localhost NetworkManager[668]: <info>  [1518848851.7217] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 22:27:31 localhost NetworkManager[668]: <info>  [1518848851.7217] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 22:27:31 localhost NetworkManager[668]: <info>  [1518848851.7217] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 22:27:31 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:27:31 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:27:31 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 689 seconds.
+Feb 16 22:27:31 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 22:27:31 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:27:31 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:27:31 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 22:27:31 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 22:27:31 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 22:39:00 localhost dhclient[711]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x7bf0863)
+Feb 16 22:39:00 localhost dhclient[711]: DHCPACK from 192.168.226.254 (xid=0x7bf0863)
+Feb 16 22:39:00 localhost NetworkManager[668]: <info>  [1518849540.8162] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 22:39:00 localhost NetworkManager[668]: <info>  [1518849540.8162] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 22:39:00 localhost NetworkManager[668]: <info>  [1518849540.8163] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 22:39:00 localhost NetworkManager[668]: <info>  [1518849540.8163] dhcp4 (eno16777736):   lease time 1800
+Feb 16 22:39:00 localhost NetworkManager[668]: <info>  [1518849540.8163] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 22:39:00 localhost NetworkManager[668]: <info>  [1518849540.8163] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 22:39:00 localhost NetworkManager[668]: <info>  [1518849540.8163] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 22:39:00 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:39:00 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:39:00 localhost dhclient[711]: bound to 192.168.226.140 -- renewal in 875 seconds.
+Feb 16 22:39:00 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 22:39:00 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:39:00 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:39:00 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 22:39:00 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 22:39:00 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 22:41:18 localhost kernel: e1000: eno16777736 NIC Link is Down
+Feb 16 22:41:22 localhost kernel: e1000: eno16777736 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0115] device (eno16777736): link connected
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0118] device (eno16777736): DHCPv4 lease renewal requested
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0220] dhcp4 (eno16777736): canceled DHCP transaction, DHCP client pid 711
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0221] dhcp4 (eno16777736): state changed bound -> done
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0226] dhcp4 (eno16777736): activation: beginning transaction (timeout in 45 seconds)
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0257] dhcp4 (eno16777736): dhclient started with pid 9211
+Feb 16 22:41:22 localhost dhclient[9211]: DHCPREQUEST on eno16777736 to 255.255.255.255 port 67 (xid=0x352fd988)
+Feb 16 22:41:22 localhost dhclient[9211]: DHCPACK from 192.168.226.254 (xid=0x352fd988)
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0590] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0590] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0590] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0590] dhcp4 (eno16777736):   lease time 1800
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0591] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0591] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 22:41:22 localhost NetworkManager[668]: <info>  [1518849682.0591] dhcp4 (eno16777736): state changed unknown -> bound
+Feb 16 22:41:22 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:41:22 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:41:22 localhost dhclient[9211]: bound to 192.168.226.140 -- renewal in 865 seconds.
+Feb 16 22:41:22 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 22:41:22 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:41:22 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:41:22 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 22:41:22 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 22:41:22 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 22:43:07 localhost kernel: e1000: eno16777736 NIC Link is Down
+Feb 16 22:43:11 localhost NetworkManager[668]: <info>  [1518849791.6219] device (eno16777736): state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Feb 16 22:43:11 localhost NetworkManager[668]: <info>  [1518849791.6309] dhcp4 (eno16777736): canceled DHCP transaction, DHCP client pid 9211
+Feb 16 22:43:11 localhost NetworkManager[668]: <info>  [1518849791.6310] dhcp4 (eno16777736): state changed bound -> done
+Feb 16 22:43:11 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:43:11 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:43:11 localhost NetworkManager[668]: <info>  [1518849791.6344] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 16 22:43:11 localhost NetworkManager[668]: <info>  [1518849791.6345] manager: NetworkManager state is now DISCONNECTED
+Feb 16 22:43:11 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 22:43:11 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:43:11 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:43:11 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 22:43:11 localhost nm-dispatcher: req:1 'connectivity-change': new request (3 scripts)
+Feb 16 22:43:11 localhost nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Feb 16 22:43:11 localhost nm-dispatcher: req:2 'down' [eno16777736]: new request (3 scripts)
+Feb 16 22:43:11 localhost nm-dispatcher: req:2 'down' [eno16777736]: start running ordered scripts...
+Feb 16 22:43:11 localhost chronyd[659]: Source 50.116.38.157 offline
+Feb 16 22:43:11 localhost chronyd[659]: Source 216.229.4.69 offline
+Feb 16 22:43:11 localhost chronyd[659]: Source 67.8.98.131 offline
+Feb 16 22:43:11 localhost chronyd[659]: Source 64.113.44.54 offline
+Feb 16 22:43:11 localhost chronyd[659]: Can't synchronise: no selectable sources
+Feb 16 22:43:13 localhost kernel: e1000: eno16777736 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2898] device (eno16777736): link connected
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2903] device (eno16777736): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2953] policy: auto-activating connection 'eno16777736'
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2960] device (eno16777736): Activation: starting connection 'eno16777736' (5e3e53aa-de1c-4f2c-8015-3c91a2033bf4)
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2962] device (eno16777736): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2963] manager: NetworkManager state is now CONNECTING
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2965] device (eno16777736): state change: prepare -> config (reason 'none') [40 50 0]
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2992] device (eno16777736): state change: config -> ip-config (reason 'none') [50 70 0]
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.2995] dhcp4 (eno16777736): activation: beginning transaction (timeout in 45 seconds)
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3028] dhcp4 (eno16777736): dhclient started with pid 9270
+Feb 16 22:43:13 localhost dhclient[9270]: DHCPREQUEST on eno16777736 to 255.255.255.255 port 67 (xid=0x7d7bc5ff)
+Feb 16 22:43:13 localhost dhclient[9270]: DHCPACK from 192.168.226.254 (xid=0x7d7bc5ff)
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3360] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3361] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3361] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3361] dhcp4 (eno16777736):   lease time 1800
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3361] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3361] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3361] dhcp4 (eno16777736): state changed unknown -> bound
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3371] device (eno16777736): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3376] device (eno16777736): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3379] device (eno16777736): state change: secondaries -> activated (reason 'none') [90 100 0]
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3380] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3397] manager: NetworkManager state is now CONNECTED_GLOBAL
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3398] policy: set 'eno16777736' (eno16777736) as default for IPv4 routing and DNS
+Feb 16 22:43:13 localhost dhclient[9270]: bound to 192.168.226.140 -- renewal in 716 seconds.
+Feb 16 22:43:13 localhost NetworkManager[668]: <info>  [1518849793.3411] device (eno16777736): Activation: successful, device activated.
+Feb 16 22:43:13 localhost nm-dispatcher: req:3 'up' [eno16777736]: new request (3 scripts)
+Feb 16 22:43:13 localhost nm-dispatcher: req:3 'up' [eno16777736]: start running ordered scripts...
+Feb 16 22:43:13 localhost nm-dispatcher: req:4 'connectivity-change': new request (3 scripts)
+Feb 16 22:43:13 localhost chronyd[659]: Source 64.113.44.54 online
+Feb 16 22:43:13 localhost chronyd[659]: Source 50.116.38.157 online
+Feb 16 22:43:13 localhost chronyd[659]: Source 216.229.4.69 online
+Feb 16 22:43:13 localhost chronyd[659]: Source 67.8.98.131 online
+Feb 16 22:43:13 localhost nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Feb 16 22:43:15 localhost kernel: e1000: eno16777736 NIC Link is Down
+Feb 16 22:43:19 localhost NetworkManager[668]: <info>  [1518849799.6172] device (eno16777736): state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Feb 16 22:43:19 localhost NetworkManager[668]: <info>  [1518849799.6260] dhcp4 (eno16777736): canceled DHCP transaction, DHCP client pid 9270
+Feb 16 22:43:19 localhost NetworkManager[668]: <info>  [1518849799.6260] dhcp4 (eno16777736): state changed bound -> done
+Feb 16 22:43:19 localhost nm-dispatcher: req:5 'connectivity-change': new request (3 scripts)
+Feb 16 22:43:19 localhost nm-dispatcher: req:5 'connectivity-change': start running ordered scripts...
+Feb 16 22:43:19 localhost NetworkManager[668]: <info>  [1518849799.6311] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 16 22:43:19 localhost NetworkManager[668]: <info>  [1518849799.6312] manager: NetworkManager state is now DISCONNECTED
+Feb 16 22:43:19 localhost nm-dispatcher: req:6 'down' [eno16777736]: new request (3 scripts)
+Feb 16 22:43:19 localhost nm-dispatcher: req:6 'down' [eno16777736]: start running ordered scripts...
+Feb 16 22:43:19 localhost chronyd[659]: Source 64.113.44.54 offline
+Feb 16 22:43:19 localhost chronyd[659]: Source 50.116.38.157 offline
+Feb 16 22:43:19 localhost chronyd[659]: Source 216.229.4.69 offline
+Feb 16 22:43:19 localhost chronyd[659]: Source 67.8.98.131 offline
+Feb 16 22:43:21 localhost kernel: e1000: eno16777736 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3142] device (eno16777736): link connected
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3144] device (eno16777736): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3191] policy: auto-activating connection 'eno16777736'
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3197] device (eno16777736): Activation: starting connection 'eno16777736' (5e3e53aa-de1c-4f2c-8015-3c91a2033bf4)
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3198] device (eno16777736): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3199] manager: NetworkManager state is now CONNECTING
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3201] device (eno16777736): state change: prepare -> config (reason 'none') [40 50 0]
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3228] device (eno16777736): state change: config -> ip-config (reason 'none') [50 70 0]
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3233] dhcp4 (eno16777736): activation: beginning transaction (timeout in 45 seconds)
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3257] dhcp4 (eno16777736): dhclient started with pid 9338
+Feb 16 22:43:21 localhost dhclient[9338]: DHCPREQUEST on eno16777736 to 255.255.255.255 port 67 (xid=0x41412942)
+Feb 16 22:43:21 localhost dhclient[9338]: DHCPACK from 192.168.226.254 (xid=0x41412942)
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3507] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3507] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3507] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3507] dhcp4 (eno16777736):   lease time 1800
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3507] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3507] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3507] dhcp4 (eno16777736): state changed unknown -> bound
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3514] device (eno16777736): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3517] device (eno16777736): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3519] device (eno16777736): state change: secondaries -> activated (reason 'none') [90 100 0]
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3520] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3529] manager: NetworkManager state is now CONNECTED_GLOBAL
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3530] policy: set 'eno16777736' (eno16777736) as default for IPv4 routing and DNS
+Feb 16 22:43:21 localhost NetworkManager[668]: <info>  [1518849801.3542] device (eno16777736): Activation: successful, device activated.
+Feb 16 22:43:21 localhost dhclient[9338]: bound to 192.168.226.140 -- renewal in 886 seconds.
+Feb 16 22:43:21 localhost nm-dispatcher: req:7 'up' [eno16777736]: new request (3 scripts)
+Feb 16 22:43:21 localhost nm-dispatcher: req:7 'up' [eno16777736]: start running ordered scripts...
+Feb 16 22:43:21 localhost nm-dispatcher: req:8 'connectivity-change': new request (3 scripts)
+Feb 16 22:43:21 localhost chronyd[659]: Source 64.113.44.54 online
+Feb 16 22:43:21 localhost chronyd[659]: Source 50.116.38.157 online
+Feb 16 22:43:21 localhost chronyd[659]: Source 216.229.4.69 online
+Feb 16 22:43:21 localhost chronyd[659]: Source 67.8.98.131 online
+Feb 16 22:43:21 localhost nm-dispatcher: req:8 'connectivity-change': start running ordered scripts...
+Feb 16 22:46:30 localhost chronyd[659]: Source 50.116.38.157 replaced with 74.207.240.206
+Feb 16 22:48:32 localhost chronyd[659]: Selected source 216.229.4.69
+Feb 16 22:49:45 localhost chronyd[659]: Can't synchronise: no majority
+Feb 16 22:52:51 localhost chronyd[659]: Selected source 64.113.44.54
+Feb 16 22:52:51 localhost chronyd[659]: System clock wrong by 2.944236 seconds, adjustment started
+Feb 16 22:58:08 localhost dhclient[9338]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x41412942)
+Feb 16 22:58:08 localhost dhclient[9338]: DHCPACK from 192.168.226.254 (xid=0x41412942)
+Feb 16 22:58:08 localhost NetworkManager[668]: <info>  [1518850688.0277] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 22:58:08 localhost NetworkManager[668]: <info>  [1518850688.0277] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 22:58:08 localhost NetworkManager[668]: <info>  [1518850688.0277] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 22:58:08 localhost NetworkManager[668]: <info>  [1518850688.0278] dhcp4 (eno16777736):   lease time 1800
+Feb 16 22:58:08 localhost NetworkManager[668]: <info>  [1518850688.0278] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 22:58:08 localhost NetworkManager[668]: <info>  [1518850688.0278] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 22:58:08 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:58:08 localhost NetworkManager[668]: <info>  [1518850688.0278] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 22:58:08 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 22:58:08 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 22:58:08 localhost dhclient[9338]: bound to 192.168.226.140 -- renewal in 832 seconds.
+Feb 16 22:58:08 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:58:08 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 22:58:08 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 22:58:08 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 22:58:08 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 23:01:01 localhost systemd: Created slice User Slice of root.
+Feb 16 23:01:01 localhost systemd: Starting User Slice of root.
+Feb 16 23:01:01 localhost systemd: Started Session 6 of user root.
+Feb 16 23:01:01 localhost systemd: Starting Session 6 of user root.
+Feb 16 23:01:01 localhost systemd: Removed slice User Slice of root.
+Feb 16 23:01:01 localhost systemd: Stopping User Slice of root.
+Feb 16 23:07:00 localhost chronyd[659]: Selected source 74.207.240.206
+Feb 16 23:10:09 localhost kernel: e1000: eno16777736 NIC Link is Down
+Feb 16 23:10:13 localhost NetworkManager[668]: <info>  [1518851413.6214] device (eno16777736): state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Feb 16 23:10:13 localhost NetworkManager[668]: <info>  [1518851413.6264] dhcp4 (eno16777736): canceled DHCP transaction, DHCP client pid 9338
+Feb 16 23:10:13 localhost NetworkManager[668]: <info>  [1518851413.6264] dhcp4 (eno16777736): state changed bound -> done
+Feb 16 23:10:13 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:10:13 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:10:13 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 23:10:13 localhost NetworkManager[668]: <info>  [1518851413.6319] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 16 23:10:13 localhost NetworkManager[668]: <info>  [1518851413.6320] manager: NetworkManager state is now DISCONNECTED
+Feb 16 23:10:13 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:10:13 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:10:13 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 23:10:13 localhost nm-dispatcher: req:1 'connectivity-change': new request (3 scripts)
+Feb 16 23:10:13 localhost nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Feb 16 23:10:13 localhost nm-dispatcher: req:2 'down' [eno16777736]: new request (3 scripts)
+Feb 16 23:10:13 localhost nm-dispatcher: req:2 'down' [eno16777736]: start running ordered scripts...
+Feb 16 23:10:13 localhost chronyd[659]: Source 64.113.44.54 offline
+Feb 16 23:10:13 localhost chronyd[659]: Source 216.229.4.69 offline
+Feb 16 23:10:13 localhost chronyd[659]: Source 67.8.98.131 offline
+Feb 16 23:10:13 localhost chronyd[659]: Source 74.207.240.206 offline
+Feb 16 23:10:13 localhost chronyd[659]: Can't synchronise: no selectable sources
+Feb 16 23:10:15 localhost kernel: e1000: eno16777736 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7447] device (eno16777736): link connected
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7453] device (eno16777736): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7510] policy: auto-activating connection 'eno16777736'
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7518] device (eno16777736): Activation: starting connection 'eno16777736' (5e3e53aa-de1c-4f2c-8015-3c91a2033bf4)
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7519] device (eno16777736): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7520] manager: NetworkManager state is now CONNECTING
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7522] device (eno16777736): state change: prepare -> config (reason 'none') [40 50 0]
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7546] device (eno16777736): state change: config -> ip-config (reason 'none') [50 70 0]
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7549] dhcp4 (eno16777736): activation: beginning transaction (timeout in 45 seconds)
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7567] dhcp4 (eno16777736): dhclient started with pid 9457
+Feb 16 23:10:15 localhost dhclient[9457]: DHCPREQUEST on eno16777736 to 255.255.255.255 port 67 (xid=0x25c7bc9c)
+Feb 16 23:10:15 localhost dhclient[9457]: DHCPACK from 192.168.226.254 (xid=0x25c7bc9c)
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7851] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7851] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7851] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7851] dhcp4 (eno16777736):   lease time 1800
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7851] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7851] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7851] dhcp4 (eno16777736): state changed unknown -> bound
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7860] device (eno16777736): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7863] device (eno16777736): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7865] device (eno16777736): state change: secondaries -> activated (reason 'none') [90 100 0]
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7865] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 16 23:10:15 localhost dhclient[9457]: bound to 192.168.226.140 -- renewal in 750 seconds.
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7878] manager: NetworkManager state is now CONNECTED_GLOBAL
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7879] policy: set 'eno16777736' (eno16777736) as default for IPv4 routing and DNS
+Feb 16 23:10:15 localhost NetworkManager[668]: <info>  [1518851415.7891] device (eno16777736): Activation: successful, device activated.
+Feb 16 23:10:15 localhost nm-dispatcher: req:3 'up' [eno16777736]: new request (3 scripts)
+Feb 16 23:10:15 localhost nm-dispatcher: req:3 'up' [eno16777736]: start running ordered scripts...
+Feb 16 23:10:15 localhost nm-dispatcher: req:4 'connectivity-change': new request (3 scripts)
+Feb 16 23:10:15 localhost chronyd[659]: Source 64.113.44.54 online
+Feb 16 23:10:15 localhost chronyd[659]: Source 74.207.240.206 online
+Feb 16 23:10:15 localhost chronyd[659]: Source 216.229.4.69 online
+Feb 16 23:10:15 localhost chronyd[659]: Source 67.8.98.131 online
+Feb 16 23:10:15 localhost nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Feb 16 23:11:19 localhost chronyd[659]: Selected source 74.207.240.206
+Feb 16 23:11:29 localhost kernel: e1000: eno16777736 NIC Link is Down
+Feb 16 23:11:33 localhost NetworkManager[668]: <info>  [1518851493.6203] device (eno16777736): state change: activated -> unavailable (reason 'carrier-changed') [100 20 40]
+Feb 16 23:11:33 localhost NetworkManager[668]: <info>  [1518851493.6291] dhcp4 (eno16777736): canceled DHCP transaction, DHCP client pid 9457
+Feb 16 23:11:33 localhost NetworkManager[668]: <info>  [1518851493.6292] dhcp4 (eno16777736): state changed bound -> done
+Feb 16 23:11:33 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:11:33 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:11:33 localhost NetworkManager[668]: <info>  [1518851493.6343] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 16 23:11:33 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 23:11:33 localhost NetworkManager[668]: <info>  [1518851493.6345] manager: NetworkManager state is now DISCONNECTED
+Feb 16 23:11:33 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:11:33 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:11:33 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 23:11:33 localhost nm-dispatcher: req:1 'connectivity-change': new request (3 scripts)
+Feb 16 23:11:33 localhost nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Feb 16 23:11:33 localhost nm-dispatcher: req:2 'down' [eno16777736]: new request (3 scripts)
+Feb 16 23:11:33 localhost nm-dispatcher: req:2 'down' [eno16777736]: start running ordered scripts...
+Feb 16 23:11:33 localhost chronyd[659]: Source 64.113.44.54 offline
+Feb 16 23:11:33 localhost chronyd[659]: Source 216.229.4.69 offline
+Feb 16 23:11:33 localhost chronyd[659]: Source 67.8.98.131 offline
+Feb 16 23:11:33 localhost chronyd[659]: Source 74.207.240.206 offline
+Feb 16 23:11:33 localhost chronyd[659]: Can't synchronise: no selectable sources
+Feb 16 23:11:35 localhost kernel: e1000: eno16777736 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.2938] device (eno16777736): link connected
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.2944] device (eno16777736): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.2993] policy: auto-activating connection 'eno16777736'
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.2999] device (eno16777736): Activation: starting connection 'eno16777736' (5e3e53aa-de1c-4f2c-8015-3c91a2033bf4)
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3001] device (eno16777736): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3001] manager: NetworkManager state is now CONNECTING
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3003] device (eno16777736): state change: prepare -> config (reason 'none') [40 50 0]
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3025] device (eno16777736): state change: config -> ip-config (reason 'none') [50 70 0]
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3027] dhcp4 (eno16777736): activation: beginning transaction (timeout in 45 seconds)
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3046] dhcp4 (eno16777736): dhclient started with pid 9528
+Feb 16 23:11:35 localhost dhclient[9528]: DHCPREQUEST on eno16777736 to 255.255.255.255 port 67 (xid=0x487d6797)
+Feb 16 23:11:35 localhost dhclient[9528]: DHCPACK from 192.168.226.254 (xid=0x487d6797)
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3547] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3547] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3547] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3547] dhcp4 (eno16777736):   lease time 1800
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3547] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3547] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3547] dhcp4 (eno16777736): state changed unknown -> bound
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3555] device (eno16777736): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Feb 16 23:11:35 localhost dhclient[9528]: bound to 192.168.226.140 -- renewal in 685 seconds.
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3568] device (eno16777736): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3571] device (eno16777736): state change: secondaries -> activated (reason 'none') [90 100 0]
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3573] manager: NetworkManager state is now CONNECTED_LOCAL
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3584] manager: NetworkManager state is now CONNECTED_GLOBAL
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3585] policy: set 'eno16777736' (eno16777736) as default for IPv4 routing and DNS
+Feb 16 23:11:35 localhost NetworkManager[668]: <info>  [1518851495.3599] device (eno16777736): Activation: successful, device activated.
+Feb 16 23:11:35 localhost nm-dispatcher: req:3 'up' [eno16777736]: new request (3 scripts)
+Feb 16 23:11:35 localhost nm-dispatcher: req:3 'up' [eno16777736]: start running ordered scripts...
+Feb 16 23:11:35 localhost nm-dispatcher: req:4 'connectivity-change': new request (3 scripts)
+Feb 16 23:11:35 localhost chronyd[659]: Source 64.113.44.54 online
+Feb 16 23:11:35 localhost chronyd[659]: Source 74.207.240.206 online
+Feb 16 23:11:35 localhost chronyd[659]: Source 216.229.4.69 online
+Feb 16 23:11:35 localhost chronyd[659]: Source 67.8.98.131 online
+Feb 16 23:11:35 localhost nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Feb 16 23:11:43 localhost kernel: e1000: eno16777736 NIC Link is Down
+Feb 16 23:11:47 localhost kernel: e1000: eno16777736 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3301] device (eno16777736): link connected
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3305] device (eno16777736): DHCPv4 lease renewal requested
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3388] dhcp4 (eno16777736): canceled DHCP transaction, DHCP client pid 9528
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3388] dhcp4 (eno16777736): state changed bound -> done
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3392] dhcp4 (eno16777736): activation: beginning transaction (timeout in 45 seconds)
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3416] dhcp4 (eno16777736): dhclient started with pid 9570
+Feb 16 23:11:47 localhost dhclient[9570]: DHCPREQUEST on eno16777736 to 255.255.255.255 port 67 (xid=0x1033a60b)
+Feb 16 23:11:47 localhost dhclient[9570]: DHCPACK from 192.168.226.254 (xid=0x1033a60b)
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3674] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3674] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3674] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3674] dhcp4 (eno16777736):   lease time 1800
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3674] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3674] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 23:11:47 localhost NetworkManager[668]: <info>  [1518851507.3674] dhcp4 (eno16777736): state changed unknown -> bound
+Feb 16 23:11:47 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:11:47 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 23:11:47 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:11:47 localhost dhclient[9570]: bound to 192.168.226.140 -- renewal in 789 seconds.
+Feb 16 23:11:47 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:11:47 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:11:47 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 23:11:47 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 23:11:47 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 23:11:49 localhost kernel: e1000: eno16777736 NIC Link is Down
+Feb 16 23:11:53 localhost kernel: e1000: eno16777736 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3470] device (eno16777736): link connected
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3471] device (eno16777736): DHCPv4 lease renewal requested
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3565] dhcp4 (eno16777736): canceled DHCP transaction, DHCP client pid 9570
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3565] dhcp4 (eno16777736): state changed bound -> done
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3569] dhcp4 (eno16777736): activation: beginning transaction (timeout in 45 seconds)
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3589] dhcp4 (eno16777736): dhclient started with pid 9597
+Feb 16 23:11:53 localhost dhclient[9597]: DHCPREQUEST on eno16777736 to 255.255.255.255 port 67 (xid=0x59decd32)
+Feb 16 23:11:53 localhost dhclient[9597]: DHCPACK from 192.168.226.254 (xid=0x59decd32)
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3870] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3870] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3871] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3871] dhcp4 (eno16777736):   lease time 1800
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3871] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3871] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 23:11:53 localhost NetworkManager[668]: <info>  [1518851513.3871] dhcp4 (eno16777736): state changed unknown -> bound
+Feb 16 23:11:53 localhost nm-dispatcher: req:2 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 23:11:53 localhost nm-dispatcher: req:2 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 23:11:53 localhost dhclient[9597]: bound to 192.168.226.140 -- renewal in 715 seconds.
+Feb 16 23:16:27 localhost chronyd[659]: Source 67.8.98.131 replaced with 66.85.74.226
+Feb 16 23:17:25 localhost chronyd[659]: Selected source 216.229.4.69
+Feb 16 23:17:25 localhost chronyd[659]: System clock wrong by 37016.518407 seconds, adjustment started
+Feb 16 23:20:39 localhost chronyd[659]: Selected source 64.113.44.54
+Feb 16 23:23:48 localhost dhclient[9597]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x59decd32)
+Feb 16 23:23:48 localhost dhclient[9597]: DHCPACK from 192.168.226.254 (xid=0x59decd32)
+Feb 16 23:23:48 localhost NetworkManager[668]: <info>  [1518852228.4731] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 23:23:48 localhost NetworkManager[668]: <info>  [1518852228.4731] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 23:23:48 localhost NetworkManager[668]: <info>  [1518852228.4731] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 23:23:48 localhost NetworkManager[668]: <info>  [1518852228.4732] dhcp4 (eno16777736):   lease time 1800
+Feb 16 23:23:48 localhost NetworkManager[668]: <info>  [1518852228.4732] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 23:23:48 localhost NetworkManager[668]: <info>  [1518852228.4732] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 23:23:48 localhost NetworkManager[668]: <info>  [1518852228.4732] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 23:23:48 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:23:48 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:23:48 localhost dhclient[9597]: bound to 192.168.226.140 -- renewal in 763 seconds.
+Feb 16 23:23:48 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 23:23:48 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:23:48 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:23:48 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 23:23:48 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 23:23:48 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 23:36:29 localhost systemd: Created slice User Slice of bruce.downs.
+Feb 16 23:36:29 localhost systemd: Starting User Slice of bruce.downs.
+Feb 16 23:36:29 localhost systemd: Started Session 7 of user bruce.downs.
+Feb 16 23:36:29 localhost systemd-logind: New session 7 of user bruce.downs.
+Feb 16 23:36:29 localhost systemd: Starting Session 7 of user bruce.downs.
+Feb 16 23:36:31 localhost dhclient[9597]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x59decd32)
+Feb 16 23:36:31 localhost dhclient[9597]: DHCPACK from 192.168.226.254 (xid=0x59decd32)
+Feb 16 23:36:31 localhost NetworkManager[668]: <info>  [1518852991.6014] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 23:36:31 localhost NetworkManager[668]: <info>  [1518852991.6017] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 23:36:31 localhost NetworkManager[668]: <info>  [1518852991.6017] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 23:36:31 localhost NetworkManager[668]: <info>  [1518852991.6017] dhcp4 (eno16777736):   lease time 1800
+Feb 16 23:36:31 localhost NetworkManager[668]: <info>  [1518852991.6018] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 23:36:31 localhost NetworkManager[668]: <info>  [1518852991.6018] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 23:36:31 localhost NetworkManager[668]: <info>  [1518852991.6018] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 23:36:31 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:36:31 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:36:31 localhost dhclient[9597]: bound to 192.168.226.140 -- renewal in 890 seconds.
+Feb 16 23:36:31 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 23:36:31 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:36:31 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:36:31 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 23:36:31 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 23:36:31 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 23:37:04 localhost systemd: Started Session 8 of user bruce.downs.
+Feb 16 23:37:04 localhost systemd-logind: New session 8 of user bruce.downs.
+Feb 16 23:37:04 localhost systemd: Starting Session 8 of user bruce.downs.
+Feb 16 23:42:21 localhost systemd-logind: Removed session 8.
+Feb 16 23:51:21 localhost dhclient[9597]: DHCPREQUEST on eno16777736 to 192.168.226.254 port 67 (xid=0x59decd32)
+Feb 16 23:51:21 localhost dhclient[9597]: DHCPACK from 192.168.226.254 (xid=0x59decd32)
+Feb 16 23:51:21 localhost NetworkManager[668]: <info>  [1518853881.8216] dhcp4 (eno16777736):   address 192.168.226.140
+Feb 16 23:51:21 localhost NetworkManager[668]: <info>  [1518853881.8219] dhcp4 (eno16777736):   plen 24 (255.255.255.0)
+Feb 16 23:51:21 localhost NetworkManager[668]: <info>  [1518853881.8219] dhcp4 (eno16777736):   gateway 192.168.226.2
+Feb 16 23:51:21 localhost NetworkManager[668]: <info>  [1518853881.8220] dhcp4 (eno16777736):   lease time 1800
+Feb 16 23:51:21 localhost NetworkManager[668]: <info>  [1518853881.8220] dhcp4 (eno16777736):   nameserver '192.168.226.2'
+Feb 16 23:51:21 localhost NetworkManager[668]: <info>  [1518853881.8220] dhcp4 (eno16777736):   domain name 'localdomain'
+Feb 16 23:51:21 localhost NetworkManager[668]: <info>  [1518853881.8220] dhcp4 (eno16777736): state changed bound -> bound
+Feb 16 23:51:21 localhost dhclient[9597]: bound to 192.168.226.140 -- renewal in 712 seconds.
+Feb 16 23:51:21 localhost dbus-daemon: dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:51:21 localhost dbus[656]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Feb 16 23:51:21 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Feb 16 23:51:21 localhost dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:51:21 localhost dbus-daemon: dbus[656]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Feb 16 23:51:21 localhost systemd: Started Network Manager Script Dispatcher Service.
+Feb 16 23:51:21 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: new request (3 scripts)
+Feb 16 23:51:21 localhost nm-dispatcher: req:1 'dhcp4-change' [eno16777736]: start running ordered scripts...
+Feb 16 23:58:19 localhost systemd-logind: New session 9 of user bruce.downs.
+Feb 16 23:58:19 localhost systemd: Started Session 9 of user bruce.downs.
+Feb 16 23:58:19 localhost systemd: Starting Session 9 of user bruce.downs.
+Feb 16 23:58:24 localhost systemd-logind: Removed session 9.
+Feb 16 23:58:46 localhost systemd: Started Session 10 of user bruce.downs.
+Feb 16 23:58:46 localhost systemd-logind: New session 10 of user bruce.downs.
+Feb 16 23:58:46 localhost systemd: Starting Session 10 of user bruce.downs.
