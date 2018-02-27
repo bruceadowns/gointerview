@@ -33,7 +33,7 @@ type keyType string
 type valueType []byte
 
 type timeAwareValueType struct {
-	data      valueType
+	value     valueType
 	timestamp time.Time
 }
 
@@ -51,7 +51,7 @@ func buildKey(prefix string, i int, k string) keyType {
 }
 
 func buildTimeAwareValue(v valueType) (res timeAwareValueType) {
-	res.data = v
+	res.value = v
 	res.timestamp = time.Now()
 	return
 }
@@ -86,6 +86,10 @@ func (tam *timeAwareMap) put(k keyType, v valueType) error {
 }
 
 func (tam *timeAwareMap) get(k keyType, ts time.Time) (valueType, error) {
+	if len(k) == 0 {
+		return nil, fmt.Errorf("empty key")
+	}
+
 	tam.RLock()
 	defer tam.RUnlock()
 
@@ -93,7 +97,7 @@ func (tam *timeAwareMap) get(k keyType, ts time.Time) (valueType, error) {
 	if ok {
 		for i := len(tav) - 1; i >= 0; i-- {
 			if !tav[i].timestamp.After(ts) {
-				return tav[i].data, nil
+				return tav[i].value, nil
 			}
 		}
 	}
@@ -127,7 +131,7 @@ func main() {
 	log.Printf("database dump")
 	for k, v := range db.data {
 		for _, vv := range v {
-			log.Printf("%s: %s: %d", k, string(vv.data), vv.timestamp.UnixNano())
+			log.Printf("%s: %s: %d", k, string(vv.value), vv.timestamp.UnixNano())
 		}
 	}
 
@@ -242,12 +246,7 @@ func testTimeScew() {
 func testTimeTravel() {
 	log.Print("time travel test")
 
-	type valueTimeType struct {
-		v  valueType
-		ts time.Time
-	}
-	tt := make([]valueTimeType, 0)
-
+	tt := make([]timeAwareValueType, 0)
 	k := buildKey("testTimeTravel", 0, "a")
 	for i := 0; i < 10; i++ {
 		v := valueType(fmt.Sprintf("value_%d", i))
@@ -256,18 +255,18 @@ func testTimeTravel() {
 			log.Fatalf("put error: %s", err)
 		}
 
-		tt = append(tt, valueTimeType{v, time.Now()})
+		tt = append(tt, buildTimeAwareValue(v))
 
 		time.Sleep(1)
 	}
 
 	for _, vt := range tt {
-		v, err := db.get(k, vt.ts)
+		v, err := db.get(k, vt.timestamp)
 		if err != nil {
 			log.Fatalf("get(%s) error: %s", k, err)
 		}
-		if !bytes.Equal(v, vt.v) {
-			log.Fatalf("get(%s, %s) error: %s != %s", k, vt.ts, v, vt.v)
+		if !bytes.Equal(v, vt.value) {
+			log.Fatalf("get(%s, %s) error: %s != %s", k, vt.timestamp, v, vt.value)
 		}
 	}
 }
@@ -281,7 +280,7 @@ func testConcurrent() {
 		idx := i
 		go func() {
 			defer wg.Done()
-			time.Sleep(time.Millisecond * time.Duration(rand.Intn(1000)))
+			time.Sleep(time.Millisecond * time.Duration(rand.Int63n(1000)))
 			testBasicTable(idx)
 		}()
 	}
