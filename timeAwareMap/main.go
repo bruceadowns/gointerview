@@ -46,11 +46,16 @@ type timeAwareMap struct {
 	data dataMapType
 }
 
-func buildKey(prefix string, i int, k string) keyType {
+func newTimeAwareMap() (res timeAwareMap) {
+	res.data = make(dataMapType)
+	return
+}
+
+func newKey(prefix string, i int, k string) keyType {
 	return keyType(fmt.Sprintf("%s_%d_%s", prefix, i, k))
 }
 
-func buildTimeAwareValue(v valueType) (res timeAwareValueType) {
+func newTimeAwareValue(v valueType) (res timeAwareValueType) {
 	res.value = v
 	res.timestamp = time.Now()
 	return
@@ -80,7 +85,7 @@ func (tam *timeAwareMap) put(k keyType, v valueType) error {
 	if !ok {
 		tav = make(values, 0)
 	}
-	tam.data[k] = append(tav, buildTimeAwareValue(v))
+	tam.data[k] = append(tav, newTimeAwareValue(v))
 
 	return nil
 }
@@ -109,7 +114,7 @@ func (tam *timeAwareMap) get(k keyType, ts time.Time) (valueType, error) {
 Database is defined and initialized as a global variable
 */
 
-var db = timeAwareMap{data: make(dataMapType)}
+var db = newTimeAwareMap()
 
 /*
 Main:
@@ -156,7 +161,7 @@ func testBasic() {
 	//get('a', 2) -> 'v1'
 	//get('b', 2) -> None
 
-	tk := buildKey("testBasic", 0, "a")
+	tk := newKey("testBasic", 0, "a")
 	tv := valueType{'v', '1'}
 	if err := db.put(tk, tv); err != nil {
 		log.Fatalf("put error: %s", err)
@@ -194,13 +199,13 @@ func testBasicTable(idx int) {
 		k keyType
 		v valueType
 	}{
-		{k: buildKey(prefix, idx, "a"), v: []byte("v1")},
-		{k: buildKey(prefix, idx, "a"), v: []byte("v2")},
-		{k: buildKey(prefix, idx, "foo"), v: []byte{'b', 'a', 'r'}},
-		{k: buildKey(prefix, idx, "answer"), v: []byte{42}},
+		{k: newKey(prefix, idx, "a"), v: []byte("v1")},
+		{k: newKey(prefix, idx, "a"), v: []byte("v2")},
+		{k: newKey(prefix, idx, "foo"), v: []byte{'b', 'a', 'r'}},
+		{k: newKey(prefix, idx, "answer"), v: []byte{42}},
 		{k: "", v: nil},
-		{k: buildKey(prefix, idx, "key_with_zero_array"), v: []byte{}},
-		{k: buildKey(prefix, idx, "key_with_nil_array"), v: nil},
+		{k: newKey(prefix, idx, "key_with_zero_array"), v: []byte{}},
+		{k: newKey(prefix, idx, "key_with_nil_array"), v: nil},
 	}
 
 	for _, t := range tt {
@@ -221,7 +226,7 @@ func testBasicTable(idx int) {
 func testTimeScew() {
 	log.Print("time scew test")
 
-	k := buildKey("testTimeScew", 0, "a")
+	k := newKey("testTimeScew", 0, "a")
 	v := valueType("v1")
 	if err := db.put(k, v); err != nil {
 		log.Fatalf("put error: %s", err)
@@ -247,7 +252,7 @@ func testTimeTravel() {
 	log.Print("time travel test")
 
 	tt := make([]timeAwareValueType, 0)
-	k := buildKey("testTimeTravel", 0, "a")
+	k := newKey("testTimeTravel", 0, "a")
 	for i := 0; i < 10; i++ {
 		v := valueType(fmt.Sprintf("value_%d", i))
 
@@ -255,7 +260,7 @@ func testTimeTravel() {
 			log.Fatalf("put error: %s", err)
 		}
 
-		tt = append(tt, buildTimeAwareValue(v))
+		tt = append(tt, newTimeAwareValue(v))
 
 		time.Sleep(1)
 	}
