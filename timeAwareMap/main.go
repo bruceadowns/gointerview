@@ -57,7 +57,11 @@ func newKey(prefix string, i int, k string) keyType {
 
 func newTimeAwareValue(v valueType) (res timeAwareValueType) {
 	res.value = v
+
+	// for simplicity assume time.Now()
+	// is monotonically increasing
 	res.timestamp = time.Now()
+
 	return
 }
 
@@ -81,10 +85,7 @@ func (tam *timeAwareMap) put(k keyType, v valueType) error {
 	tam.Lock()
 	defer tam.Unlock()
 
-	tav, ok := tam.data[k]
-	if !ok {
-		tav = make(values, 0)
-	}
+	tav := tam.data[k]
 	tam.data[k] = append(tav, newTimeAwareValue(v))
 
 	return nil
@@ -100,6 +101,8 @@ func (tam *timeAwareMap) get(k keyType, ts time.Time) (valueType, error) {
 
 	tav, ok := tam.data[k]
 	if ok {
+		// consider implementing as sort.Search(ts)
+
 		for i := len(tav) - 1; i >= 0; i-- {
 			if !tav[i].timestamp.After(ts) {
 				return tav[i].value, nil
@@ -111,7 +114,8 @@ func (tam *timeAwareMap) get(k keyType, ts time.Time) (valueType, error) {
 }
 
 /*
-Database is defined and initialized as a global variable
+For simplicity, the database is defined and initialized
+as a global variable rather than on the stack.
 */
 
 var db = newTimeAwareMap()
