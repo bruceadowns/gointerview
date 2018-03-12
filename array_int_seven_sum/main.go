@@ -24,14 +24,14 @@ func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
 		line := scanner.Text()
-		log.Printf("line: %s\n", line)
+		log.Printf("line: %s", line)
 
 		// tokenize input into slice of ints
 		is := make([]int, 0)
 		for _, v := range strings.Fields(line) {
 			i, err := strconv.Atoi(v)
 			if err != nil {
-				log.Panic(err)
+				log.Fatal(err)
 			}
 
 			is = append(is, i)
@@ -41,11 +41,7 @@ func main() {
 		m := make(map[int]int)
 		for _, v := range is {
 			// insert or update occurrence
-			if i, ok := m[v]; ok {
-				m[v] = i + 1
-			} else {
-				m[v] = 1
-			}
+			m[v]++
 
 			partner := 7 - v
 			// check for seven partner
@@ -53,12 +49,12 @@ func main() {
 				// found valid partner
 				if once {
 					// print line of partner occurrence
-					log.Printf("%d + %d = %d\n", v, partner, 7)
+					log.Printf("%d + %d = %d", v, partner, 7)
 					m[partner] = p - 1
 				} else {
 					// print line per partner occurrence
 					for i := 0; i < p; i++ {
-						log.Printf("%d + %d = %d\n", v, partner, 7)
+						log.Printf("%d + %d = %d", v, partner, 7)
 					}
 				}
 			}
