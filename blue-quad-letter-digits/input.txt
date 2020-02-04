@@ -1,0 +1,6 @@
+AB = CA - DE
+FG = BE - HG
+DB = AF - IA
+JC = KC - JE
+JL = LJ - DK
+HE = CG - BI
